@@ -1,0 +1,25 @@
+/* Tùy chỉnh thêm CSS nếu cần thiết */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px; /* Khoảng cách tránh bị navbar fixed đè lên */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    padding: 100px 0;
+}
+
+.book-mockup {
+    max-height: 400px;
+    transition: transform 0.3s ease;
+}
+
+.book-mockup:hover {
+    transform: scale(1.03);
+}
+
+.author-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
